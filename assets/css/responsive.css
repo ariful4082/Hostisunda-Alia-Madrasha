@@ -1,0 +1,202 @@
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.logo a h1 {
+	    font-size: 25px;
+	    color: #860044;
+	}
+	.logo p {
+	    font-size: 8px;
+	    color: #f3aa05;
+	}
+	nav.manu ul li a {
+	    padding: 6px 6px;
+	    font-size: 12px;
+	}
+	section.slider {
+	    height: 250px;
+	}
+	section.slider .slide .content {
+	    max-width: 330px;
+	}
+	section.slider .slide .content h2 {
+	    font-size: 35px;
+	}
+	section.slider .slide .content p {
+	    font-size: 15px;
+	}
+	.section-headeing h2 {
+	    font-size: 70px;
+	    padding: 8px 0;
+	}
+	.activeContent h3 {
+	    font-size: 25px;
+	}
+	.activeContent p {
+	    font-size: 15px;
+	}
+
+	section.std-categoris .column3, section.teacher .column3 {
+	    grid-column: span 4;
+	}
+
+	/*Room Page*/
+	section.office-room .section-headeing h2 {
+	    font-size: 55px;
+	}
+	section.office-room .column4 {
+	    grid-column: span 6;
+	}
+	
+	.container-mix.row .column3 {
+	    grid-column: span 6;
+	}
+	.foot-top .column5, .foot-top .column4 {
+	    grid-column: span 6;
+	}
+	.foot-top .column3{
+		grid-column: span 12;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+	nav.manu ul li ul {
+		position: relative;
+	    width: 100%;
+	    height: 100%;
+	    margin: 0;;
+	}
+	section.slider {
+	    height: 200px;
+	}
+	section.slider .slide .content {
+	    max-width: 300px;
+	}
+	section.slider .slide .content h2 {
+	    font-size: 30px;
+	}
+	section.slider .slide .content p {
+	    font-size: 12px;
+	}
+	.flex-cont {
+	    position: relative;
+	}
+	.respo-menu{
+		display: block;
+	}
+	nav.manu {
+	    width: 100%;
+	    height: auto;
+	    display: block;
+	    position: absolute;
+	    margin-top: 70px;
+	    overflow: hidden;
+	    text-align: center;
+	    z-index: 10;
+	    display: none;
+	}
+	nav.manu ul {
+	    display: block;
+	    list-style: none;
+	    width: 100%;
+	    min-height: 50px;
+	    margin-top: 20px;
+	}
+	nav.manu ul li {
+	    background: rgba(0,0,0,.8);
+	}
+	nav.manu.act-menu {
+	    display: block;
+	}	
+	
+	nav.manu ul li a::after, nav.manu ul li.active a::after{
+		display: none;
+	}
+	
+	.section-headeing h2 {
+	    font-size: 35px;
+	    padding: 5px 0;
+	}
+	/*Grid-Responsive*/
+
+	section.mad-post .column2 {
+	    grid-column: span 12;
+	}
+	section.post-widget .column8 {
+	    grid-column: span 12;
+	    grid-row: 1;
+	}section.post-widget .column4 {
+	    grid-column: span 12;
+	    grid-row: 2;
+	}
+	.foot-top .column5 {
+	    grid-column: span 12;
+	}
+		.foot-top .column4, .foot-top .column3 {
+	    grid-column: span 6;
+	}
+
+	/*student page*/
+	section.std-categoris .column3, section.teacher .column3 {
+	    grid-column: span 6;
+	}
+	section.Std-condition .column3 {
+	    grid-column: span 6;
+	}
+	section.std-active .column2 {
+	    grid-column: span 12;
+	}
+
+	/*Teacher pages*/
+	section.tech-activity .column3 {
+	    grid-column: span 6;
+	}
+	.techBox ul li a {
+	    font-size: 15px;
+	}
+	/*room page*/
+	section.office-room .section-headeing h2, section.allClassRoom .section-headeing h2 {
+	    font-size: 45px;
+	}
+	section.office-room .column4 {
+	    grid-column: span 12;
+	}
+	section.allClassRoom .column3 {
+	    grid-column: span 6;
+	}
+	section.allClassRoom .column9 {
+	    grid-column: span 6;
+	}
+	section.allClassRoom .container-mix.row {
+	    display: block;
+	    width: 100%;
+	    height: 100%;
+	}
+	.classBox {
+	    margin-bottom: 25px;
+	}
+
+	.foot-top .section-headeing h2 {
+	    font-size: 20px;
+	}
+	.foot-top .section-headeing h2::before{
+		display: none;
+	}
+	.backPostBox.row .column2 {
+	    grid-column: span 12;
+	}
+
+
+	section.post-widget .section-headeing h2 {
+	    font-size: 35px;
+	    
+	}
+
+	section.about-map .section-headeing h2 {
+	    font-size: 40px;
+	}
+	section.contact-page .column4 {
+	    grid-column: span 12;
+	    grid-row: 1;
+	}
+	section.contact-page .column8 {
+	    grid-column: span 12;
+	}
+}

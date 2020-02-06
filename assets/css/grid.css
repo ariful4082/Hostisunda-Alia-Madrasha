@@ -1,0 +1,34 @@
+.container {
+    margin: 0 60px;
+}
+.row{
+	display: grid;
+    grid-template-columns: repeat(12, 12fr);
+    
+    grid-gap: 25px;
+}
+ .column2 {
+    grid-column: span 6;
+}
+.column3 {
+    grid-column: span 3;
+}
+.column4 {
+    grid-column: span 4;
+}
+.column6 {
+    grid-column: span 2;
+}
+.column8 {
+    grid-column: span 8;
+}
+.column9{
+	grid-column: span 9;
+}
+.column5{
+	grid-column: span 5;
+
+}
+.column12{
+	grid-column: span 12;
+}
