@@ -1,8 +1,25 @@
 $(document).ready(function(){
 	$('.respo-menu').click(function(){
 		$('nav.manu').toggleClass('act-menu');
-	})
+	});
+	 // Our Madrasha song( about Page)
+	 $('#youTube-video').magnificPopup({
+	 	type:'iframe',
+	 		iframe: {
+			  patterns: {
+			    youtube: {
+			      index: 'youtube.com/', 
 
+			      id: 'v=', 
+			      src: 'http://www.youtube.com/embed/%id%?autoplay=1' 
+			    },
+
+			  },
+
+			  srcAction: 'iframe_src', 
+			}
+		});
+	 
 	var overlay = document.getElementById('load-wrapper');
 	window.addEventListener('load', function(){
 		overlay.style.display='none';
@@ -27,24 +44,7 @@ $(document).ready(function(){
             // Specify the lightbox in image.
             type: 'image'
         });
-     // Our Madrasha song( about Page)
-	 $('#youTube-video').magnificPopup({
-	 	type:'iframe',
-	 		iframe: {
-			  patterns: {
-			    youtube: {
-			      index: 'youtube.com/', 
-
-			      id: 'v=', 
-
-			      src: 'http://www.youtube.com/embed/%id%?autoplay=1' 
-			    },
-	
-			  },
-
-			  srcAction: 'iframe_src',
-			}
-		});
+    
 	// teacher Activities (teacher PAGE)
 	  $(function() {
         $('.chart').easyPieChart({
@@ -73,11 +73,6 @@ $(window).load(function() {
 		manualAdvance: false,
 		prevText: 'Prev',
 		nextText: 'Next',
-		randomStart: false,
-		beforeChange: function(){},
-		afterChange: function(){},
-		slideshowEnd: function(){},
-		lastSlide: function(){},
-		afterLoad: function(){}
+		randomStart: false
 	});
 });
